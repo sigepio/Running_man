@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="system">
+      <UniqueIdentifier>{22dd8095-74f9-46df-81a1-36675a040b1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="system\system.cpp">
+      <Filter>system</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameCamera.cpp" />
+    <ClCompile Include="BackGround.cpp" />
+    <ClCompile Include="Star.cpp" />
+    <ClCompile Include="GameClear.cpp" />
+    <ClCompile Include="Stage01.cpp" />
+    <ClCompile Include="Stage02.cpp" />
+    <ClCompile Include="Stage03.cpp" />
+    <ClCompile Include="Stage04.cpp" />
+    <ClCompile Include="Stage05.cpp" />
+    <ClCompile Include="Stage06.cpp" />
+    <ClCompile Include="move_floor.cpp" />
+    <ClCompile Include="Gameover.cpp" />
+    <ClCompile Include="Result_rank.cpp" />
+    <ClCompile Include="Needl01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="system\system.h">
+      <Filter>system</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameCamera.h" />
+    <ClInclude Include="BackGround.h" />
+    <ClInclude Include="Star.h" />
+    <ClInclude Include="GameClear.h" />
+    <ClInclude Include="Stage01.h" />
+    <ClInclude Include="Stage02.h" />
+    <ClInclude Include="Stage03.h" />
+    <ClInclude Include="Stage04.h" />
+    <ClInclude Include="Stage05.h" />
+    <ClInclude Include="Stage06.h" />
+    <ClInclude Include="move_floor.h" />
+    <ClInclude Include="Gameover.h" />
+    <ClInclude Include="Result_rank.h" />
+    <ClInclude Include="Needl01.h" />
+  </ItemGroup>
+</Project>
